@@ -4,23 +4,25 @@
 * Template URL: https://bootstrapmade.com/bootslander-free-bootstrap-landing-page-template/
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
+
+editado dia 27-04-20223
 */
 
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
-  color: #302f2f;
+  font-family: "Montserrat", sans-serif;
+  color: #484848;
 }
 
 a {
-  color: #1acc8d;
+  color: #00FFB6;
   text-decoration: none;
 }
 
 a:hover {
-  color: #34e5a6;
+  color: #00FFB6;
   text-decoration: none;
 }
 
@@ -182,7 +184,7 @@ h6 {
   padding: 10px 0 10px 30px;
   font-size: 15px;
   font-weight: 500;
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: rgba(255, 255, 255, 0.7);
   white-space: nowrap;
   transition: 0.3s;
@@ -419,7 +421,7 @@ h6 {
 
 #hero:before {
   content: "";
-  background: rgba(76, 76, 78, 0.91);
+  background: #484848;
   position: absolute;
   bottom: 0;
   top: 0;
@@ -526,19 +528,21 @@ h6 {
 
 #hero .btn-get-started {
   font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  letter-spacing: 1px;
-  display: inline-block;
+  font-weight:bold;
+  font-size:20px;
+  text-align: center;
+  text-decoration:none;
   padding: 10px 30px;
   border-radius: 550px;
   transition: 0.5s;
   color: #0a0a0a;
-  background: #e6f700;
+  background: #ffd94f00;
+
+
 }
 
 #hero .btn-get-started:hover {
-  background: #17b57d;
+  background: #17b57e00;
 }
 
 #hero .animated {
@@ -653,10 +657,10 @@ h6 {
   }
 }
 
-/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@**/
+/*@@@@@@@@@@@@@@botaozinho parecido com a imagem @@@@@@@@@@@@@@@@@@@@@**/
 body{
   text-align:center;
-  background-color:#ffcc8e;
+  background-color:#080808;
 }
 
 .button{
@@ -671,18 +675,18 @@ body{
   font-size:20px;
   text-align: center;
   text-decoration:none;
-  background-color:#FFA12B;
+  background-color:#FFD84F;
   display:block;
   position:relative;
-  padding:15px 25px;
+  padding:5px 10px;
   
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  text-shadow: 0px 1px 0px #000;
+  text-shadow: 0px 1px 0px #000000;
   filter: dropshadow(color=#000, offx=0px, offy=1px);
   
-  -webkit-box-shadow:inset 0 1px 0 #FFE5C4, 0 10px 0 #915100;
-  -moz-box-shadow:inset 0 1px 0 #FFE5C4, 0 10px 0 #915100;
-  box-shadow:inset 0 1px 0 #FFE5C4, 0 10px 0 #915100;
+  -webkit-box-shadow:inset 0 1px 0 #FFE5C4, 0 10px 0 #000000;
+  -moz-box-shadow:inset 0 1px 0 #FFE5C4, 0 10px 0 #000000;
+  box-shadow:inset 0 1px 0 #FFE5C4, 0 10px 0 #000000;
   
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -691,11 +695,11 @@ body{
 
 .button a:active{
   top:10px;
-  background-color:#F78900;
+  background-color:#ffffff;
   
-  -webkit-box-shadow:inset 0 1px 0 #FFE5C4, inset 0 -3px 0 #915100;
-  -moz-box-shadow:inset 0 1px 0 #FFE5C4, inset 0 -3pxpx 0 #915100;
-  box-shadow:inset 0 1px 0 #FFE5C4, inset 0 -3px 0 #915100;
+  -webkit-box-shadow:inset 0 1px 0 #FFE5C4, inset 0 -3px 0 #000000;
+  -moz-box-shadow:inset 0 1px 0 #FFE5C4, inset 0 -3pxpx 0 #000000;
+  box-shadow:inset 0 1px 0 #FFE5C4, inset 0 -3px 0 #000000;
 }
 
 .button:after{
@@ -707,7 +711,6 @@ body{
   bottom:-15px;
   left:-4px;
   z-index:-1;
-  background-color:#2B1800;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
@@ -738,7 +741,7 @@ section {
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #aaaaaa;
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .section-title h2::after {
@@ -756,7 +759,7 @@ section {
   font-size: 36px;
   font-weight: 700;
   text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #010483;
 }
 
@@ -804,7 +807,7 @@ section {
 .breadcrumbs ol li+li::before {
   display: inline-block;
   padding-right: 10px;
-  color: #6c757d;
+  color: #484848;
   content: "/";
 }
 
@@ -850,19 +853,19 @@ section {
   justify-content: center;
   width: 64px;
   height: 64px;
-  border: 2px solid #7ceec6;
+  border: 2px solid #00FFB6;
   border-radius: 50px;
   transition: 0.5s;
 }
 
 .about .icon-box .icon i {
-  color: #1acc8d;
+  color: #00FFB6;
   font-size: 32px;
 }
 
 .about .icon-box:hover .icon {
-  background: #1acc8d;
-  border-color: #1acc8d;
+  background: #00FFB6;
+  border-color: #00FFB6;
 }
 
 .about .icon-box:hover .icon i {
@@ -882,7 +885,7 @@ section {
 }
 
 .about .icon-box .title a:hover {
-  color: #1acc8d;
+  color: #00FFB6;
 }
 
 .about .icon-box .description {
@@ -986,7 +989,7 @@ section {
   display: inline-block;
   transition: 0.5s;
   margin-left: 25px;
-  color: #0adf40;
+  color: #00FFB6;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -1001,7 +1004,7 @@ section {
 }
 
 .btn-watch-video:hover i {
-  color: #17ff2a;
+  color: #00FFB6;
 }
 
 @media (min-width: 1024px) {
@@ -1142,7 +1145,7 @@ section {
 .details .content ul i {
   font-size: 30px;
   padding-right: 4px;
-  color: #1acc8d;
+  color: #00FFB6;
 }
 
 .details .content p:last-child {
@@ -1202,7 +1205,7 @@ section {
   padding: 10px 20px;
   font-size: 12px;
   line-height: 20px;
-  color: #666666;
+  color: #484848;
   border-radius: 4px;
   text-transform: uppercase;
   background: #fff;
@@ -1212,7 +1215,7 @@ section {
 
 .gallery .portfolio-flters li:hover,
 .gallery .portfolio-flters li.filter-active {
-  background: #18d26e;
+  background: #00FFB6;
   color: #fff;
 }
 
@@ -1268,13 +1271,13 @@ section {
 .gallery .portfolio-item figure .link-preview i,
 .gallery .portfolio-item figure .link-details i {
   font-size: 22px;
-  color: #333;
+  color: #484848;
   line-height: 0;
 }
 
 .gallery .portfolio-item figure .link-preview:hover,
 .gallery .portfolio-item figure .link-details:hover {
-  background: #18d26e;
+  background: #00FFB6;
 }
 
 .gallery .portfolio-item figure .link-preview:hover i,
@@ -1329,7 +1332,7 @@ section {
 .gallery .portfolio-item .portfolio-info p {
   padding: 0;
   margin: 0;
-  color: #b8b8b8;
+  color: #484848;
   font-weight: 500;
   font-size: 14px;
   text-transform: uppercase;
@@ -1356,11 +1359,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #18d26e;
+  border: 1px solid #00FFB6;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #18d26e;
+  background-color: #00FFB6;
 }
 
 .portfolio-details .portfolio-info {
@@ -1617,7 +1620,7 @@ section {
   font-size: 36px;
   color: #1acc8d;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin-bottom: 20px;
 }
 
@@ -1726,7 +1729,7 @@ section {
 .faq .faq-list a {
   display: block;
   position: relative;
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 500;
@@ -1761,11 +1764,11 @@ section {
 }
 
 .faq .faq-list a.collapsed {
-  color: #343a40;
+  color: #484848;
 }
 
 .faq .faq-list a.collapsed:hover {
-  color: #1acc8d;
+  color: #00FFB6;
 }
 
 .faq .faq-list a.collapsed .icon-show {
@@ -1786,7 +1789,7 @@ section {
 # Contact
 --------------------------------------------------------------*/
 #contact {
-  background: #4a4a4d;
+  background: #484848;
  
  
 }
@@ -1833,7 +1836,7 @@ section {
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #1acc8d;
+  background: #00FFB6;
   color: #fff;
 }
 
@@ -1853,7 +1856,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #474646;
+  background: #484848;
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
@@ -1867,7 +1870,7 @@ section {
   margin-bottom: 15px;
   background: #010246;
   color: #fff;
-  border-top: 4px solid #1acc8d;
+  border-top: 4px solid #00FFB6;
   text-align: center;
   padding: 30px 20px;
 }
@@ -1902,7 +1905,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #1acc8d;
+  background: #00FFB6;
   color: #fff;
   text-decoration: none;
 }
@@ -1927,7 +1930,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #61ebba;
+  color: #00FFB6;
   font-size: 18px;
   line-height: 1;
 }
@@ -1976,14 +1979,14 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #1acc8d;
+  background: #00FFB6;
   color: #fff;
   transition: 0.3s;
   border-radius: 50px;
 }
 
 #footer .footer-top .footer-newsletter form input[type=submit]:hover {
-  background: #149f6e;
+  background: #00FFB6;
 }
 
 #footer .copyright {
